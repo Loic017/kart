@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    overflow-inline: contain;
+}
+
+.nav-bar {
+    display: flex;
+    padding: 3px 50px;
+    /* background-color: #262626; */
+    color: #c6caff;
+    justify-content: center;
+    margin: 10px 20px;
+    border-radius: 10px;
+    margin-top: 3em;
+}
+
+.link {
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+    margin: 1em 25px;
+}
+
+.cta-link {
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 25px; 
+}
+
+.cta-links {
+    margin-left: auto;
+    color: #c6caff;
+    padding: 0px 5px;
+    border-radius: 10px;
+}
+
+#text-logo {
+    color: #262626;
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #262626;
+}
+
+#sign-up a{
+    padding: 5px 0;
+    background-color: #262626;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+#log-in a {
+    color: #262626;
+}
